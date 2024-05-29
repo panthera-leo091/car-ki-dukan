@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Shop: Shop Now</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<style>
+    .load-more {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .load-more button {
+        width: 20%;
+        height: 1.5rem;
+        background-color: rgb(156, 155, 155);
+        border-radius: 10px;
+        border: 1px;
+        cursor: pointer;
+        
+    }
+</style>
+
+<body>
+    <section id="header">
+        <a href="index.html" style="text-decoration: none; color: black; display: flex; align-items: center;"><img
+                src="./image/bmw.png" alt="logo" class="logo" style="margin-right: 5px;">Car Shop</a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="./shop.html">Shop</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li class="login"><a href="./login.html">Log In</a></li>
+                <li class="signup"><a href="./signup.html">Sign Up</a></li>
+                <li><a href="./cart.html"><ion-icon name="bag-outline"></ion-icon></a></li>
+            </ul>
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <div class="pro-container">
+            <a href="./thar.html" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product1-thumbnail.webp" alt="">
+                    <div class="des">
+                        <span>Mahindra Thar</span>
+                        <h5>Of-Road-SUV</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 10.4-16.2 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="./nexon.html" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product2-thumbnail.webp" alt="">
+                    <div class="des">
+                        <span>Tata Nexon</span>
+                        <h5>XUV</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 8.2-15.6</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="./alto.html" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product3.webp" alt="">
+                    <div class="des">
+                        <span>Maruti Alto K10</span>
+                        <h5>Hatchback</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 3.9-5.9 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="./nano.html" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product4.jpeg" alt="">
+                    <div class="des">
+                        <span>Tata Nano</span>
+                        <h5>STD</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 1.9 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="#" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product1-thumbnail.webp" alt="">
+                    <div class="des">
+                        <span>Mahindra Thar</span>
+                        <h5>Of-Road-SUV</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 10.4-16.2 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="#" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product2-thumbnail.webp" alt="">
+                    <div class="des">
+                        <span>Tata Nexon</span>
+                        <h5>XUV</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 8.2-15.6</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="#" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product3.webp" alt="">
+                    <div class="des">
+                        <span>Maruti Alto K10</span>
+                        <h5>Hatchback</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 3.9-5.9 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="#" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product4.jpeg" alt="">
+                    <div class="des">
+                        <span>Tata Nano</span>
+                        <h5>STD</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 1.9 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="./thar.html" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product1-thumbnail.webp" alt="">
+                    <div class="des">
+                        <span>Mahindra Thar</span>
+                        <h5>Of-Road-SUV</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 10.4-16.2 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="./nexon.html" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product2-thumbnail.webp" alt="">
+                    <div class="des">
+                        <span>Tata Nexon</span>
+                        <h5>XUV</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 8.2-15.6</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="./alto.html" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product3.webp" alt="">
+                    <div class="des">
+                        <span>Maruti Alto K10</span>
+                        <h5>Hatchback</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 3.9-5.9 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="./nano.html" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product4.jpeg" alt="">
+                    <div class="des">
+                        <span>Tata Nano</span>
+                        <h5>STD</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 1.9 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="#" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product1-thumbnail.webp" alt="">
+                    <div class="des">
+                        <span>Mahindra Thar</span>
+                        <h5>Of-Road-SUV</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 10.4-16.2 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="#" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product2-thumbnail.webp" alt="">
+                    <div class="des">
+                        <span>Tata Nexon</span>
+                        <h5>XUV</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 8.2-15.6</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="#" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product3.webp" alt="">
+                    <div class="des">
+                        <span>Maruti Alto K10</span>
+                        <h5>Hatchback</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 3.9-5.9 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+            <a href="#" style="text-decoration: none; color: black;">
+                <div class="pro">
+                    <img src="./image/product4.jpeg" alt="">
+                    <div class="des">
+                        <span>Tata Nano</span>
+                        <h5>STD</h5>
+                        <div class="star">
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                            <ion-icon name="star"></ion-icon>
+                        </div>
+                        <h4>₹ 1.9 lakh</h4>
+                    </div>
+                    <a href="#"><ion-icon name="cart-outline" class="cart"></ion-icon></a>
+                </div>
+            </a>
+
+        </div>
+        <div class="load-more"><button>Load more</button></div>
+    </section>
+
+
+
+
+    <footer class="section-p1">
+        <div class="footer">
+            <div class="col">
+                <img class="logo" src="./img/logo.png" alt="">
+                <h4>Contact</h4>
+                <p><strong>Address: </strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, fugit.</p>
+                <p><strong>Phone: </strong> +0000000000 / +91987654210</p>
+                <p><strong>Hours: </strong> 10 : 00 - 18 : 00, Mon - Sat</p>
+                <div class="follow">
+                    <h4>follow</h4>
+                    <div class="icon">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                        <ion-icon name="logo-twitter"></ion-icon>
+                        <ion-icon name="logo-instagram"></ion-icon>
+                        <ion-icon name="logo-youtube"></ion-icon>
+                        <ion-icon name="logo-pinterest"></ion-icon>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a href="#">About Us</a>
+                <a href="#">Delivery Information</a>
+                <a href="#">Privacy Policies</a>
+                <a href="#">Terms And Conditions</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="col install">
+                <h4>Insall App</h4>
+                <p>From APP store or google play</p>
+                <div class="row">
+                    <img src="./image/app.jpg" alt="">
+                    <img src="./image/play.jpg" alt="">
+                </div>
+                <p>Secure Payment Gateways</p>
+                <img src="./image/pay.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023, all copyright reserved, panthera_leo</p>
+        </div>
+    </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
